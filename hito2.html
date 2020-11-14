@@ -355,8 +355,103 @@ Lo ideal sería que dicho tratamiento pueda llegar a una mayor cantidad de perso
 						<div ALIGN =center>
 					<img class="img-fluid" src="images/diagrama.PNG" alt="alternative">  
 					<p>Figura N°1 : Esquema de funciones.</p>	
-				</div> 					       
-                    </div> <!-- end of text-container -->
+				</div> 	
+					<p align= "justify">Con el objetivo de definir los elementos del software, se analizarán las funciones que se necesitarán para que el sistema opere de la manera adecuada y obtengamos los resultados buscados. Nuestro esquema de funciones es:</p>													  
+              				<p align= "justify">Ahora se presentan las funciones de la estructura del sistema dividas en dominios según la relación que guardan con el proceso:</p>
+					
+						<h4>A. Dominio de Interfaz</h4>	  
+					<div ALIGN =center>
+					<img class="img-fluid" src="images/interfaz.PNG" alt="alternative">  
+					<p>Figura N°2 : Dominio de Interfaz</p>	
+					</div> 	
+							   <div class="row">
+                            				 <div class="col-lg-10 offset-lg-1">
+                             	  				<div class="text-container">
+
+							<h5>-Configurar parámetros iniciales</h5>
+								<p align= "justify">El paciente introducirá sus datos personales lo que le permitirá acceder al software.</p>
+
+							<h5>-Enviar información</h5>	
+								<p align= "justify"> La señal que servirá para que el software empiece a trabajar.</p>
+
+							<h5>-Test a completar</h5>	
+								<p align= "justify">El test será mostrado en pantalla para que el paciente pueda completarlo.</p>
+							<h5>-Recibir información</h5>	
+								<p align= "justify">El resultado que se mostrará al paciente</p>
+						         
+						        	</div>
+			 		        	 </div>
+				        	</div>
+										   
+							<h4>B. Dominio de Comunicación</h4>	  
+					<div ALIGN =center>
+					<img class="img-fluid" src="images/comunicacion.PNG" alt="alternative">  
+					<p>Figura N°3 : Dominio de Comunicación</p>	
+					</div> 	
+							   <div class="row">
+                            				 <div class="col-lg-10 offset-lg-1">
+                             	  				<div class="text-container">
+
+							<h5>-Recibir información</h5>
+								<p align= "justify">La confirmación que recibirá el sistema para empezar a trabajar</p>
+
+							<h5>-Enviar información</h5>	
+								<p align= "justify"> El módulo donde se reciben los resultados en general donde parte se mostrará al paciente y otra parte se dirigirá a la base de datos del centro médico.</p>
+
+												         
+						        	</div>
+			 		        	 </div>
+				        	</div>   
+						
+					<h4>C. Dominio de Procesamiento</h4>	  
+					<div ALIGN =center>
+					<img class="img-fluid" src="images/procesamiento.PNG" alt="alternative">  
+					<p>Figura N°2 : Dominio de Interfaz</p>	
+					</div> 	
+							   <div class="row">
+                            				 <div class="col-lg-10 offset-lg-1">
+                             	  				<div class="text-container">
+
+							<h5>-Preparar test</h5>
+								<p align= "justify">Se elegirá el test a trabajar, dependiendo del tipo de test puede que este módulo se extienda un poco más, será una de las variables más importantes a considerar. Con esto definiremos la efectividad de nuestro software.</p>
+
+							<h5>-Confirmar identidad</h5>	
+								<p align= "justify">La señal que permitirá al usuario realizar el test, luego de haber confirmado su identidad.</p>
+
+							<h5>-Recolectar información del test</h5>	
+								<p align= "justify">Se recolectarán los resultados del test para proceder a analizarlos.</p>
+							<h5>-Analizar resultados de test</h5>	
+								<p align= "justify">Con esto procederemos a descartar una posible patología psicológica.</p>
+							<h5>-Generar descarte psicológico</h5>
+								<p align= "justify">Podremos descartar o no que el paciente tenga depresión o ansiedad.</p>
+						         
+						        	</div>
+			 		        	 </div>
+				        	</div>
+							   
+					<h4>D. Dominio de Validación</h4>	  
+					<div ALIGN =center>
+					<img class="img-fluid" src="images/validacion.PNG" alt="alternative">  
+					<p>Figura N°3 : Dominio de Comunicación</p>	
+					</div> 	
+							   <div class="row">
+                            				 <div class="col-lg-10 offset-lg-1">
+                             	  				<div class="text-container">
+
+							<h5>-Solicitar validación de identidad</h5>
+								<p align= "justify">Se solicita al usuario que pueda darnos información la cual verifique su edad.</p>
+
+							<h5>-Confirmar validación de identidad</h5>	
+								<p align= "justify">Se comprueba la información brindada con las ya solicitadas anteriormente</p>
+
+												         
+						        	</div>
+			 		        	 </div>
+				        	</div>   		   
+							   
+							   
+							   
+							   </div> <!-- end of text-container -->
                 </div>
             </div> <!-- end of row -->
         </div> <!-- end of container -->
